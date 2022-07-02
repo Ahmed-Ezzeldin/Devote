@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE2D2AAF287060560031A63B /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D2AAE287060560031A63B /* HideKeyboardExtension.swift */; };
+		BE2D2AB1287067850031A63B /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D2AB0287067850031A63B /* BackgroundImageView.swift */; };
 		BEE3FB5E286F54A00082777B /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE3FB5D286F54A00082777B /* DevoteApp.swift */; };
 		BEE3FB60286F54A00082777B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE3FB5F286F54A00082777B /* ContentView.swift */; };
 		BEE3FB62286F54A00082777B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE3FB61286F54A00082777B /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		BE2D2AAE287060560031A63B /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		BE2D2AB0287067850031A63B /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		BEE3FB5A286F54A00082777B /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE3FB5D286F54A00082777B /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		BEE3FB5F286F54A00082777B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE3FB5F286F54A00082777B /* ContentView.swift */,
+				BE2D2AB0287067850031A63B /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE3FB67286F54A00082777B /* Persistence.swift in Sources */,
+				BE2D2AB1287067850031A63B /* BackgroundImageView.swift in Sources */,
 				BEE3FB60286F54A00082777B /* ContentView.swift in Sources */,
 				BE2D2AAF287060560031A63B /* HideKeyboardExtension.swift in Sources */,
 				BEE3FB82286F70080082777B /* Constant.swift in Sources */,
