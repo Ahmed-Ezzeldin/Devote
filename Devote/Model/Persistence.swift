@@ -40,7 +40,6 @@ struct PersistenceController {
             newItem.task = "Sample task \(i)"
             newItem.completion = false
             newItem.id = UUID()
-            // TODO *** I stoped here ***
         }
         do {
             try viewContext.save()
